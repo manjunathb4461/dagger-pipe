@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dagger:0.2.3,${{ secrets.DOCKERHUB_USERNAME }}/dagger:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dagger:0.2.4,${{ secrets.DOCKERHUB_USERNAME }}/dagger:latest
