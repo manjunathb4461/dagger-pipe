@@ -1,0 +1,14 @@
+name: Dagger pipe
+image: manjunathb4461/dagger
+category: Continous Integration
+description: Installs dagger for actions to use
+variables:
+  - name: CMD
+    default: ''
+repository: https://github.com/manjunathb4461/dagger-pipe
+maintainer:
+  name: Manjunath Bhadrannavar
+  email: manjunathb4461@gmail.com
+tags:
+  - Continous Integration
+  - Dagger
