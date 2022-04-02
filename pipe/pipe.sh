@@ -2,4 +2,4 @@
 
 CMD=${CMD:?'missing CMD variable'}
 
-exec ./bin/dagger "${CMD}"
+exec dagger "${CMD}"

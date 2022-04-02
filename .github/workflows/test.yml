@@ -1,0 +1,13 @@
+on:
+  push:
+    branches: 
+      - '*'
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Run tests
+      run: bats ./test/test.bats
